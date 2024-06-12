@@ -1,0 +1,215 @@
+.agent-pricing-section {
+    padding-top: 50px;
+    background: #fff;
+    box-shadow: 0 -8px 10px 0 RGBA(0, 0, 0, .02);
+}
+
+.agent-pricing-wrapper {
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.agent-pricing-rows {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.agent-pricing-tab-header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+    background: #f5f4f4;
+    display: flex;
+    width: 100%;
+    padding: 10px;background: #f5f4f4;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.agent-pricing-tab-button {
+    width: 25%;
+    text-align: center;
+    padding: 13.5px 10px;
+    border-radius: 10px;
+    outline: 0;
+    cursor: pointer;
+
+    border: 1px solid #c8c7c7;
+}
+
+.pricing-compare-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+}
+
+.pricing-comparison {
+
+}
+
+.pricing-plans {
+    align-items: stretch;
+    text-align: center;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pricing-box {
+    height: auto;
+    border-left: none;
+    padding-top: 0;
+    border-top: none;
+
+
+    width: 25%;
+    background: #fff;
+    position: relative;
+    transition: all .2s ease-in;
+
+    padding-bottom: 10px;
+}
+
+.plan-name {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 30px 20px;
+    text-align: left;
+}
+
+.pricing-figures {
+    padding: 0 25px;
+    text-align: left;
+}
+
+.dollar-symbol {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.dollar-inner {
+    background: #fff;
+    margin-left: 0;
+}
+
+.dollar-amount {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.amount-slip {
+    font-size: 12px;
+}
+
+.pricing-saving-perentage {
+    display: none;
+}
+
+.pricing-feature-list {
+    display: flex;
+    padding: 20px 35px 85px;
+}
+
+.pricing-feature-list-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-feature-list-items li {
+    list-style: circle;
+    font-weight: 300;
+
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    font-size: 14px;
+    color: #555550;
+    margin-bottom: 15px;
+
+    margin-left: 8px;
+}
+
+.pricing-btn-container {
+    display: flex;
+    padding: 0 30px;
+    flex-direction: column;
+    position: absolute;
+    /* width: 100%; */
+    width: 66%;
+    bottom: 30px;
+}
+
+.pricing-btn {
+    width: 100%;
+    /* display: inline-block; */
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .2s ease-in;
+}
+
+.agent-pricing-tab-button span{
+    font-size: 12px;
+}
+
+.pricing-compare-banner {
+    margin: 80px auto 40px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 570px;
+    border-radius: 16px;
+    padding: 14px 0 12px;
+    background: #f9f9f9;
+}
+
+@media only screen 
+and (max-width : 390px) {
+  /* Styles */
+  .agent-pricing-tab-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .agent-pricing-tab-button { 
+    width: 100%;
+  }
+  .pricing-box {
+    width: 90%;
+    margin: auto;
+  }
+
+  .pricing-compare-container {
+    flex: 10;
+  }
+
+  .agent-pricing-wrapper {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .agent-pricing-tab-button {
+    height: 50px;
+  }
+}

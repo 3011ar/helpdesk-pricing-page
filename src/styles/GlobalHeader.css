@@ -1,0 +1,222 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent
+}
+
+.product-bar {
+    background: #fff;
+    position: relative;
+    z-index: 150;
+    padding-top: 10px;  
+    border-bottom: 1px solid rgb(255 58 58 / 20%);
+    /* when min height is 993 px -- padding*/
+}
+
+.product-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    max-width: 1140px;
+
+    /* max-width maxwidth 1500 media query */
+}
+
+.product-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.product-logo-wrapper {
+    width: 18.5%;
+    max-width: 140px;
+}
+
+.product-bar-products {
+    width: 70%;
+    position: relative;
+}
+
+.product-bar-product-list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.product-bar-product-list-item {
+    margin-right: 10px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-switcher {
+    padding: 0;
+    width: 400px;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.product-switcher-text {
+    border: 1px solid rgb(255 58 58 / 20%);
+    border-bottom: none;
+
+    font-weight: 500;
+    background: #ffecec;
+    padding: 10px 26px 10px;
+    display: inline-block;
+    border-radius: 0;
+    border: 1px solid rgb(0 73 112 / 20%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 16px;
+}
+
+.product-switcher-text img {
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-left: 4px;
+}
+
+.product-switcher-text:hover + .product-switcher-dropbox {
+    opacity: 1;
+}
+
+.product-switcher-text:hover {
+    background-color: #f0f0f0;
+}
+
+.product-bar-login {
+    width: calc(30% - 140px);
+    text-align: right;
+}
+
+.product-bar-link {
+    padding: 7px 10px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #646f79;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.product-switcher-dropbox {
+    width: 670px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: none;
+}
+.product-switcher-dropbox.active {
+    display: inline;
+    opacity: 1;
+}
+
+.product-switcher-dropbox-container {
+    /* padding: 30px; */
+    padding: 10px 30px 30px 20px;
+    margin-top: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    /* max-width: 100%; */
+    width: 700px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #fff;
+    position: absolute;
+    border: 1px solid rgb(255 58 58 / 20%);
+}
+
+.product-switcher-dropbox-menu-wrapper {
+    display: flex;
+}
+
+.product-switcher-dropbox-menu {
+    width: 100%;
+}
+
+.product-switcher-dropbox-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-switcher-dropbox-menu-item {
+    transform: translateX(10px);
+    opacity: 1;
+    width: 47%;
+    position: relative;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.product-switcher-dropbox-menu-item a {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: flex-start;
+}
+
+.product-switcher-dropbox-menu-item-img {
+    margin-bottom: 10px;
+}
+
+.product-switcher-dropbox-menu-item-img {
+    vertical-align: middle;
+    border-style: none;
+    width: 35px;
+    margin-right: 15px;
+}
+
+.product-switcher-dropbox-menu-item-line {
+    font-size: 12px;
+    color: #555;
+    max-width: 350px;
+}
+
+.menu-name {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 16px;
+}
+
+/* transform: rotate(180deg); */
+
+@media only screen 
+and (max-width : 390px) {
+  /* Styles */
+  .product-bar {
+    overflow: hidden;
+  }
+  .product-container {
+    margin-left: 19.5px;
+  }
+  .product-wrapper {
+    width: 90%;
+  }
+  .product-bar-products {
+    display: none;
+  }
+
+  .product-bar-login {
+    width: 100%;
+  }
+
+}

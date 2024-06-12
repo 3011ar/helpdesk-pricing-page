@@ -1,0 +1,76 @@
+.pricing-banner {
+    background: url(https://assets.www.happyfox.com/v2/images/pricing-new-banner-bg-new.png) no-repeat left top;
+    text-align: center;
+    background-size: cover;
+}
+
+.pricing-container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pricing-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.pricing-test {
+    width: 100%;
+}
+
+.pricing-test h1 {
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    margin: 80px 0 76px;
+}
+
+.pricing-explainer {
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    max-width: 77%;
+    align-items: stretch;
+    min-height: 90px;
+}
+
+.pricing-explainer-block {
+    width: 50%;
+    max-width: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.volume {
+    background-color: #ffeada;
+}
+
+.pricing-explainer-block h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+@media only screen 
+and (max-width : 390px) {
+  /* Styles */
+  .pricing-banner {
+    overflow: hidden;
+  }
+  .pricing-explainer {
+    gap: 10px;
+    justify-content: space-between;
+    max-width: 77%;
+    margin-left: 8%;
+  }
+
+}

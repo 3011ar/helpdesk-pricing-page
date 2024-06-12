@@ -1,0 +1,234 @@
+{
+    "globalHeader" : [
+        {
+            "imageUrl": "https://assets.www.happyfox.com/v2/images/site-nav/helpdesk-logo-2022.svg",
+            "productDesc": "A robust ticketing system for customer service, IT and internal help desk needs.",
+            "productName": "Happy Fox"
+        },
+        {
+            "imageUrl": "https://assets.www.happyfox.com/v2/images/site-nav/service-desk-logo-2022.svg",
+            "productDesc": "Robust service delivery with HappyFox Service Desk",
+            "productName": "Service Desk"
+        },
+        {
+            "imageUrl": "https://assets.www.happyfox.com/v2/images/happyfox-ai/happyfox-ai-icon.svg",
+            "productDesc": "Transform your customer service with generative AI",
+            "productName": "HappyFox AI"
+        },
+        {
+            "imageUrl": "https://assets.www.happyfox.com/v2/images/site-nav/assist-ai-logo.svg",
+            "productDesc": "Provide IT support directly from Slack and Microsoft Teams",
+            "productName": "Assist AI"
+        },
+        {
+            "imageUrl": "https://assets.www.happyfox.com/v2/images/site-nav/chatbot-logo-2022.svg",
+            "productDesc": "Engage and reach your customers 24x7 with ready-to-go chatbots",
+            "productName": "Chatbot"
+        },
+        {
+            "imageUrl": "https://assets.www.happyfox.com/v2/images/site-nav/workflows-logo-2022.svg",
+            "productDesc": "Ensure speedy resolution of tickets with end-to-end process automation",
+            "productName": "Workflows"
+        },
+        {
+            "imageUrl": "https://assets.www.happyfox.com/v2/images/site-nav/bi-logo-2022.svg",
+            "productDesc": "Make data-driven decisions & better serve your customers with reports and analytics",
+            "productName": "Buisness Intelligence"
+        },
+        {
+            "imageUrl": "https://assets.www.happyfox.com/v2/images/site-nav/livechat-logo-2022.svg",
+            "productDesc": "Chat with your customers instantly on mobile, desktop, and web",
+            "productName": "Live Chat"
+        }
+    ],
+
+    "helpDeskPlans" : [
+        {
+            "ticketManagement" : "Unlimited Mailboxes",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Unlimited Categories",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Unlimited Tickets",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+
+        {
+            "ticketManagement" : "Customizable Statuses",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Customizable Priorities",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Ticket Custom Fields",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Custom Domain Mapping",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Multilingual Agent Portal",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        }
+        ,        {
+            "ticketManagement" : "Agent Collision",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        
+
+        {
+            "ticketManagement" : "Work Schedules",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Custom Roles and Permissions",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Ticket Tagging",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Email Notifications",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        }
+        ,{
+            "ticketManagement" : "Bulk Editing",
+            "mighty" : true,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Satisfaction Surveys",
+            "mighty" : false,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Custom Ticket Queues",
+            "mighty" : false,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Kanban view of tickets",
+            "mighty" : false,
+            "fanastic" : true,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Proactive Agent Collision",
+            "mighty" : false,
+            "fanastic" : false,
+            "enterPrise" : true,
+            "enterPricePlus" : true
+        }
+    ],
+
+    "moreProducts" : [
+        {
+            "imageUrl" : "https://assets.www.happyfox.com/v2/images/pricing-lc.svg",
+            "ProductName" : "Live Chat",
+            "ProductDesc" : "Chat with your customers instantly on mobile, desktop, and web."
+        },
+        {
+            "imageUrl" : "https://assets.www.happyfox.com/v2/images/pricing-cb.svg",
+            "ProductName" : "Chatbot",
+            "ProductDesc" : "Engage and reach your customers 24x7 with ready-to-go chatbots."
+        },
+        {
+            "imageUrl" : "https://assets.www.happyfox.com/v2/images/pricing-ai.svg",
+            "ProductName" : "Assist AI",
+            "ProductDesc" : "Provide IT support directly from Slack and Microsoft Teams."
+        },
+        {
+            "imageUrl" : "https://assets.www.happyfox.com/v2/images/pricing-bi.svg",
+            "ProductName" : "Business Intelligence",
+            "ProductDesc" : "Turn insight into advantage with cross-functional reports & dashboards."
+        },
+        {
+            "imageUrl" : "https://assets.www.happyfox.com/v2/images/pricing-wa.svg",
+            "ProductName" : "Workflow Automation",
+            "ProductDesc" : "Reduce the grunt work with end-to-end process automation."
+        }
+
+    ],
+
+    "frequentlyAskedQuestions" : [
+        {
+            "questionName" : "Who are help desk agents?",
+            "questionAnswer" : "Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts."
+        },
+        {
+            "questionName" : "What are Categories?",
+            "questionAnswer" : "Categories allow you to separate incoming requests into dedicated ticket types that can be distributed to a specific team, have unique SLA requirements, and produce insightful metrics."
+        },
+        {
+            "questionName" : "How can I change my plan?",
+            "questionAnswer" : "You can upgrade your plan at any point in time. However, if you want to downgrade, you can do it at the end of the current billing cycle. You may also write to billing@happyfox.com or contact your Account Executive."
+        },
+        {
+            "questionName" : "Do you offer a trial?",
+            "questionAnswer" : "Yes. We encourage you to request a demo to determine if HappyFox Help Desk is the right fit for your organization. Once we identify your needs, we'd be happy to provide access to a trial account where you can configure your proof of concept."
+        },
+        {
+            "questionName" : "Do you offer discounts for non-profits or educational institutes?",
+            "questionAnswer" : "We offer a 10% discount on annual subscriptions on any plan."
+        },
+        {
+            "questionName" : "What are the available billing cycles?",
+            "questionAnswer" : "We offer a monthly, annual, 2-year savings plan (paid upfront), and 3-year contract for agent-based pricing."
+        }
+    ]
+    
+      
+}

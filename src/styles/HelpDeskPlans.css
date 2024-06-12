@@ -1,0 +1,221 @@
+.helpdesk-plans-container {
+    margin: auto;
+    text-align: center;
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.helpdesk-plans-container p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    transition: all .2s ease-in;
+    padding: 40px 0;
+    background: #f8f8f8;
+}
+
+.feature-comparison-table {
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 0;
+    visibility: visible;
+    max-height: 15000px;
+    transition: all .3s ease-in;
+    padding-top: 20px;
+}
+
+.feature-comparison-table-header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 54px;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background: #fff;
+    padding-top: 0;
+}
+
+.feature-comparison-table-header-container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.feature-comparison-table-header-container-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.header-container-row {
+    padding: 30px 0 20px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(152, 157, 173, 0.2);
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+.header-container-row-table {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(152, 157, 173, 0.2);
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+}
+.table-title {
+    width: 31%;
+}
+
+.table-column {
+    width: 16%;
+    font-size: 16px;
+    color: #797879;
+    font-weight: 300;
+}
+
+.table-column p {
+    font-size: 20px;
+    font-weight: 500;
+    float: left;
+    width: 100%;
+    color: #323643;
+}
+
+.table-column p span {
+    width: 100%;
+    float: left;
+}
+
+.pricing-table-features {
+    display: block;
+}
+
+.pricing-table-features-container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pricing-table-features-container-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.plain-row {
+    /* padding: 13px 0; */
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row-container-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #fff !important;
+    margin-bottom: 10px;
+}
+
+.row-container-header-table {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #fff !important;
+    /* margin-bottom: 10px; */
+}
+
+.table-column-tick {
+    font-size: 16px;
+    color: #797879;
+    font-weight: 300;
+    width: 16%;
+}
+.table-column-tick p{
+    width: 20px;
+    height: 20px;
+    background: url(https://assets.www.happyfox.com/v2/images/pricing-tick.svg) no-repeat left top;
+}
+
+.table-column-dash {
+    font-size: 16px;
+    color: #797879;
+    font-weight: 300;
+    width: 16%;
+}
+
+.table-column-dash p {
+    width: 20px;
+    height: 20px;
+    background: url(https://assets.www.happyfox.com/v2/images/pricing-no-tick.svg) no-repeat left top;
+}
+
+.plain-row:hover {
+    cursor: pointer;
+    color: red;
+    background-color: #d0d0d0 !important; /* Darker shade of f7f7f7 */
+  }
+
+
+@media only screen 
+and (max-width : 390px) {
+  /* Styles */
+  .header-container-row-table {
+    /* margin-left: 25px; */
+    padding-left: 25px;
+    flex-wrap: wrap;
+  }
+  .table-title {
+    width: 100%;
+  }
+
+  .table-column {
+    width: 48%;
+  }
+
+  .plain-row {
+    flex-wrap: wrap;
+  }
+  .header-container-row-table {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    /* margin-left: 40px; */
+  }
+
+  .table-column-tick {
+    width: 48%;
+  }
+  .table-column-dash{
+    width: 48%;
+  }
+  .helpdesk-plans-container p {
+    overflow: hidden;
+  }
+  .feature-comparison-table {
+    overflow: hidden;
+  }
+  .pricing-table-features {
+    overflow: hidden;
+  }
+  .pricing-table-features-container {
+    overflow: hidden;
+  }
+}
