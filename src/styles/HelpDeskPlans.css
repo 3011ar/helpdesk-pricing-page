@@ -22,6 +22,8 @@
     max-height: 15000px;
     transition: all .3s ease-in;
     padding-top: 20px;
+    top: 35px;
+    position: sticky;
 }
 
 .feature-comparison-table-header {
@@ -210,6 +212,8 @@ and (max-width : 390px) {
     overflow: hidden;
   }
   .feature-comparison-table {
+    top: 30px;
+    position: sticky;
     overflow: hidden;
   }
   .pricing-table-features {

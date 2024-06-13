@@ -35,13 +35,19 @@
 }
 
 .agent-pricing-tab-button {
+    height: 52px;
     width: 25%;
     text-align: center;
     padding: 13.5px 10px;
     border-radius: 10px;
     outline: 0;
     cursor: pointer;
+    background-color: #F5F4F4;
+    border: 0px solid #F5F4F4;
+}
 
+.agent-pricing-tab-button:hover {
+    background-color: #fff;
     border: 1px solid #c8c7c7;
 }
 
@@ -66,23 +72,44 @@
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+.other-pricing-box {
+    /* border-left: 1px solid black; */
+    border-left: 1px solid #eee;
+    /* background-color: red; */
 }
 
 .pricing-box {
     height: auto;
-    border-left: none;
+    /* border-left: none; */
     padding-top: 0;
     border-top: none;
 
 
-    width: 25%;
+    width: 24.93%;
+    /* width: 24.93; */
     background: #fff;
     position: relative;
     transition: all .2s ease-in;
 
     padding-bottom: 10px;
+    cursor: pointer;
 }
+
+.pricing-box:hover{
+    box-shadow: 0 20px 10px 0 rgba(0, 0, 0, .08);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pricing-box:hover .pricing-btn-container a{
+    /* background-color: orange; */
+    
+
+    background: #FF3A3A;
+    color: #fff !important;
+
+  }
 
 .plan-name {
     font-size: 24px;
@@ -116,8 +143,26 @@
 }
 
 .pricing-saving-perentage {
-    display: none;
+    /* display: none; */
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
+
+.pricing-saving-perentage-show {
+    background: #fff;
+    margin-left: 0;
+}
+
+.pricing-saving-perentage-show span {
+    color: #009928;
+}
+
+/* nnn */
 
 .pricing-feature-list {
     display: flex;
@@ -184,7 +229,11 @@
     padding: 14px 0 12px;
     background: #f9f9f9;
 }
-
+.active {
+    background: #fff;
+    font-weight: 500;
+    border: 1px solid #c8c7c7;
+}
 @media only screen 
 and (max-width : 390px) {
   /* Styles */
@@ -199,6 +248,7 @@ and (max-width : 390px) {
   .pricing-box {
     width: 90%;
     margin: auto;
+    margin-top: 50px;
   }
 
   .pricing-compare-container {

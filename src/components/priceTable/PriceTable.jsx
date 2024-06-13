@@ -6,7 +6,8 @@ const PriceTable = () => {
 
     const rows = Array.from({ length: 10 }, (_, index) => index);
   return (
-    <>
+    
+    <div>
       <div className="helpdesk-plans-container">
         <p>Compare Help Desk Plans</p>
       </div>
@@ -112,7 +113,7 @@ const PriceTable = () => {
           </div>
         </div>
       </div>
-    </>
+      </div>
   );
 };
 

@@ -1,0 +1,208 @@
+{
+    "Monthly": [
+      {
+        "name": "Mighty",
+        "price": 39,
+        "savings": "",
+        "features": [
+          "Omnichannel Ticket Creation",
+          "SLA Management",
+          "Knowledge Base",
+          "SSO (GSuite/SAML/Azure)",
+          "SSL Certificate Hosting",
+          "Migration Assistance"
+        ]
+      },
+      {
+        "name": "Fantastic",
+        "price": 59,
+        "savings": "",
+        "features": [
+          "Multi-brand Helpdesk",
+          "SLA Breach Notification",
+          "Custom Ticket Queues",
+          "24/7 Email Support",
+          "Optional EU Data Center"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": 79,
+        "savings": "",
+        "features": [
+          "Proactive Agent Collision",
+          "Task Management",
+          "Asset Management",
+          "24/7 Email/Chat Support",
+          "Uptime SLA"
+        ]
+      },
+      {
+        "name": "Enterprise Plus",
+        "price": 99,
+        "savings": "",
+        "features": [
+          "Agent Scripting",
+          "2 TB Attachment Store",
+          "All-time Reporting History",
+          "24/7 Email/Chat/Phone Support",
+          "Customer Success Manager"
+        ]
+      }
+    ],
+    "Annual": [
+      {
+        "name": "Mighty",
+        "price": 29,
+        "savings": "25% Savings*",
+        "features": [
+          "Omnichannel Ticket Creation",
+          "SLA Management",
+          "Knowledge Base",
+          "SSO (GSuite/SAML/Azure)",
+          "SSL Certificate Hosting",
+          "Migration Assistance"
+        ]
+      },
+      {
+        "name": "Fantastic",
+        "price": 49,
+        "savings": "16% Savings*",
+        "features": [
+          "Multi-brand Helpdesk",
+          "SLA Breach Notification",
+          "Custom Ticket Queues",
+          "24/7 Email Support",
+          "Optional EU Data Center"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": 69,
+        "savings": "12% Savings*",
+        "features": [
+          "Proactive Agent Collision",
+          "Task Management",
+          "Asset Management",
+          "24/7 Email/Chat Support",
+          "Uptime SLA"
+        ]
+      },
+      {
+        "name": "Enterprise Plus",
+        "price": 89,
+        "savings": "10% Savings*",
+        "features": [
+          "Agent Scripting",
+          "2 TB Attachment Store",
+          "All-time Reporting History",
+          "24/7 Email/Chat/Phone Support",
+          "Customer Success Manager"
+        ]
+      }
+    ],
+
+    "2-Year Savings Plan": [
+        {
+          "name": "Mighty",
+          "price": 26,
+          "savings": "33% Savings*",
+          "features": [
+            "Omnichannel Ticket Creation",
+            "SLA Management",
+            "Knowledge Base",
+            "SSO (GSuite/SAML/Azure)",
+            "SSL Certificate Hosting",
+            "Migration Assistance"
+          ]
+        },
+        {
+          "name": "Fantastic",
+          "price": 39,
+          "savings": "34% Savings*",
+          "features": [
+            "Multi-brand Helpdesk",
+            "SLA Breach Notification",
+            "Custom Ticket Queues",
+            "24/7 Email Support",
+            "Optional EU Data Center"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": 52,
+          "savings": "34% Savings*",
+          "features": [
+            "Proactive Agent Collision",
+            "Task Management",
+            "Asset Management",
+            "24/7 Email/Chat Support",
+            "Uptime SLA"
+          ]
+        },
+        {
+          "name": "Enterprise Plus",
+          "price": 64,
+          "savings": "35% Savings*",
+          "features": [
+            "Agent Scripting",
+            "2 TB Attachment Store",
+            "All-time Reporting History",
+            "24/7 Email/Chat/Phone Support",
+            "Customer Success Manager"
+          ]
+        }
+      ],
+      "3-Year Contract": [
+        {
+          "name": "Mighty",
+          "price": 27,
+          "savings": "30% Savings*",
+          "features": [
+            "Omnichannel Ticket Creation",
+            "SLA Management",
+            "Knowledge Base",
+            "SSO (GSuite/SAML/Azure)",
+            "SSL Certificate Hosting",
+            "Migration Assistance"
+          ]
+        },
+        {
+          "name": "Fantastic",
+          "price": 41,
+          "savings": "30% Savings*",
+          "features": [
+            "Multi-brand Helpdesk",
+            "SLA Breach Notification",
+            "Custom Ticket Queues",
+            "24/7 Email Support",
+            "Optional EU Data Center"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": 55,
+          "savings": "30% Savings*",
+          "features": [
+            "Proactive Agent Collision",
+            "Task Management",
+            "Asset Management",
+            "24/7 Email/Chat Support",
+            "Uptime SLA"
+          ]
+        },
+        {
+          "name": "Enterprise Plus",
+          "price": 69,
+          "savings": "30% Savings*",
+          "features": [
+            "Agent Scripting",
+            "2 TB Attachment Store",
+            "All-time Reporting History",
+            "24/7 Email/Chat/Phone Support",
+            "Customer Success Manager"
+          ]
+        }
+      ]
+  }
+  
