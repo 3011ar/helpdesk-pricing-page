@@ -14,7 +14,7 @@ const Header = () => {
                             <span></span>
                         </div>
                         <a>
-                            <img id="hfNavbarlogo" src="https://assets.www.happyfox.com/v2/images/site-nav/HD-logo.svg" alt="happyfox logo" width="20" height="20" class="hf-productnav__logo" />
+                            <img id="hfNavbarlogo" src="https://assets.www.happyfox.com/v2/images/site-nav/HD-logo.svg" alt="happyfox logo" width="20" height="20" className="hf-productnav__logo" />
                         </a>
                         <span>helpdesk</span>
                     </div>
@@ -24,7 +24,7 @@ const Header = () => {
                             <a>
                                 <span>
                                     Features { }
-                                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10"/>
+                                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" className="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10"/>
                                 </span>
                             </a>
                         </li>
@@ -34,7 +34,7 @@ const Header = () => {
                             <a>
                                 <span>
                                     Solutions { }
-                                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10"/>
+                                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" className="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10"/>
                                 </span>
                             </a>
                         </li>
@@ -44,7 +44,7 @@ const Header = () => {
                             <a>
                                 <span>
                                     Pricing { }
-                                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10"/>
+                                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" className="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10"/>
                                 </span>
                             </a>
                         </li>
@@ -54,7 +54,7 @@ const Header = () => {
                             <a>
                                 <span>
                                     Resources { }
-                                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10"/>
+                                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" className="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10"/>
                                 </span>
                             </a>
                         </li>

@@ -21,6 +21,7 @@ const FrequentlyAsked = () => {
   return (
     <>
         <div className='frequently-asked-wrapper'>
+            <div className='background-container'></div>
             <div className='frequently-asked-container'>
                 <div className='frequently-asked-container-rows'>
                     

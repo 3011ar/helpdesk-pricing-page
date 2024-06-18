@@ -19,7 +19,7 @@ function App() {
       <Header/>
       <TestBanner/>
 
-      <PriceCard/>
+      {/* <PriceCard/> */}
 
       {/* <Banner/> */}
       <PriceTable/>

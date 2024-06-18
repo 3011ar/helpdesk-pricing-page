@@ -44,6 +44,10 @@
     cursor: pointer;
     background-color: #F5F4F4;
     border: 0px solid #F5F4F4;
+
+    font-size: 18px;
+    font-family: system-ui;
+    height: 71px;
 }
 
 .agent-pricing-tab-button:hover {
@@ -116,6 +120,7 @@
     font-weight: 500;
     margin: 0 30px 20px;
     text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .pricing-figures {
@@ -235,12 +240,13 @@
     border: 1px solid #c8c7c7;
 }
 @media only screen 
-and (max-width : 390px) {
+and (max-width : 430px) {
   /* Styles */
   .agent-pricing-tab-header {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 20px;
   }
   .agent-pricing-tab-button { 
     width: 100%;
@@ -256,10 +262,25 @@ and (max-width : 390px) {
   }
 
   .agent-pricing-wrapper {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   .agent-pricing-tab-button {
-    height: 50px;
+    height: 71px;
   }
+}
+
+.pricing-popular {
+    margin-top: -25px;
+    text-align: left;
+    padding: 0 30px;
+    margin-bottom: 5px;
+    color: #FF3A3A;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pricicing-not-popular {
+    display: none;
 }

@@ -1,0 +1,539 @@
+{
+    "helpDeskPlans": [
+      {
+        "category": "Ticket Management",
+        "features": [
+            {
+                "ticketManagement" : "Unlimited Mailboxes",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Unlimited Categories",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Unlimited Tickets",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+    
+            {
+                "ticketManagement" : "Customizable Statuses",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Customizable Priorities",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Ticket Custom Fields",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Custom Domain Mapping",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Multilingual Agent Portal",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            }
+            ,        {
+                "ticketManagement" : "Agent Collision",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            
+    
+            {
+                "ticketManagement" : "Work Schedules",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Custom Roles and Permissions",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Ticket Tagging",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Email Notifications",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            }
+            ,{
+                "ticketManagement" : "Bulk Editing",
+                "mighty" : true,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Satisfaction Surveys",
+                "mighty" : false,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Custom Ticket Queues",
+                "mighty" : false,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Kanban view of tickets",
+                "mighty" : false,
+                "fanastic" : true,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Proactive Agent Collision",
+                "mighty" : false,
+                "fanastic" : false,
+                "enterPrise" : true,
+                "enterPricePlus" : true
+            },
+            {
+                "ticketManagement" : "Attachment Store",
+                "mighty" : "50 GB",
+                "fanastic" : "500 GB",
+                "enterPrise" : "1 TB",
+                "enterPricePlus" : "2 TB"
+            }
+        ]
+      },
+      {
+        "category": "Customer Management",
+        "features": [
+          {
+            "ticketManagement": "Unlimited Contacts",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Import Contacts",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Contact Custom Fields",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Unlimited Contact Groups",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Contact Group Custom Fields",
+            "mighty": false,
+            "fanastic": false,
+            "enterPrise": true,
+            "enterPricePlus": true
+          }
+        ]
+      },
+      {
+        "category": "Help Desk Automation",
+        "features": [
+          {
+            "ticketManagement": "Smart Rule Automation",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Canned Actions (Macros)",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Ticket Templates",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Automatic Time Tracking",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "SLA management",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "SLA Breach Notification",
+            "mighty": false,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Round Robin Ticket Assignment",
+            "mighty": false,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Scheduled Tickets",
+            "mighty": false,
+            "fanastic": false,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Agent Scripting",
+            "mighty": false,
+            "fanastic": false,
+            "enterPrise": false,
+            "enterPricePlus": true
+          }
+          
+        ]
+      },
+      {
+        "category": "Support Center",
+        "features": [
+          {
+            "ticketManagement": "Self-Service Knowledge Base",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Internal Knowledge Base",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Knowledge Base Notifications",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Support Portal Builder",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "SEO optimization for Knowledge Base",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Knowledge base Drafts",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Automatic Sitemap Generation",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Client Portal",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Multilingual Knowledge Base",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Code Editor for Support Center",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Multi-brand Help Desk with SSL Support",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Multi-branding with Custom Domain",
+            "mighty": true,
+            "fanastic": "5 brands",
+            "enterPrise": "15 brands",
+            "enterPricePlus": "25 brands"
+          },
+          {
+            "ticketManagement": "Contact Group Specific Knowledge Base",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          }
+        ]
+      },
+      {
+        "category": "Help Desk Reporting",
+        "features": [
+          {
+            "ticketManagement": "Dashboard",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Report Filters",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Export Tickets to CSV or Excel",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Ticket Inflow Report",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Help Desk Performance Report",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Agent Activity Report",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Ticket Distribution Report",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Time Spent Report",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Contact Report",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Canned Actions Report",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Satisfaction Survey Report",
+            "mighty": false,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "SLA Performance Report",
+            "mighty": false,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Custom Field Report",
+            "mighty": false,
+            "fanastic": false,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Contact Group Report",
+            "mighty": false,
+            "fanastic": false,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Scheduled Reports",
+            "mighty": false,
+            "fanastic": false,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Ticket Life Cycle Report",
+            "mighty": false,
+            "fanastic": false,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Asset Report",
+            "mighty": false,
+            "fanastic": false,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Smart Rule Metrics",
+            "mighty": false,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Custom Dashboard",
+            "mighty": false,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Reporting History",
+            "mighty": "Last 1 year",
+            "fanastic": "Last 3 year",
+            "enterPrise": "Last 5 year",
+            "enterPricePlus": "All Time"
+          }
+        ]
+      },
+      {
+        "category": "Third Party Integrations",
+        "features": [
+          {
+            "ticketManagement": "Aircall",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Facebook",
+            "mighty": "3 Pages",
+            "fanastic": "5 Pages",
+            "enterPrise": "7 Pages",
+            "enterPricePlus": "10 Pages"
+          },
+          {
+            "ticketManagement": "JIRA",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Microsoft Teams",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          },
+          {
+            "ticketManagement": "Slack",
+            "mighty": true,
+            "fanastic": true,
+            "enterPrise": true,
+            "enterPricePlus": true
+          }
+        ]
+      }
+      
+      
+      
+    ]
+  }
+  

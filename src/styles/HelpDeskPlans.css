@@ -12,6 +12,7 @@
     transition: all .2s ease-in;
     padding: 40px 0;
     background: #f8f8f8;
+    margin-top: 0px;
 }
 
 .feature-comparison-table {
@@ -150,6 +151,17 @@
     font-weight: 300;
     width: 16%;
 }
+
+.plans-planned {
+  padding: 30px 0 30px 15px;
+    color: #9b9b9b;
+}
+.table-column-no-img {
+  font-size: 16px;
+  color: #797879;
+  font-weight: 300;
+  width: 16%;
+}
 .table-column-tick p{
     width: 20px;
     height: 20px;
@@ -177,7 +189,7 @@
 
 
 @media only screen 
-and (max-width : 390px) {
+and (max-width : 430px) {
   /* Styles */
   .header-container-row-table {
     /* margin-left: 25px; */
@@ -190,6 +202,7 @@ and (max-width : 390px) {
 
   .table-column {
     width: 48%;
+    max-height: 60px;
   }
 
   .plain-row {
@@ -210,11 +223,14 @@ and (max-width : 390px) {
   }
   .helpdesk-plans-container p {
     overflow: hidden;
+    font-family: system-ui;
+    font-weight: 600;
   }
   .feature-comparison-table {
     top: 30px;
     position: sticky;
     overflow: hidden;
+    box-shadow: 1px 3px 5px 0 rgba(163, 164, 166, .2)
   }
   .pricing-table-features {
     overflow: hidden;

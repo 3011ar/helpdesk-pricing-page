@@ -200,7 +200,7 @@
 /* transform: rotate(180deg); */
 
 @media only screen 
-and (max-width : 390px) {
+and (max-width : 430px) {
   /* Styles */
   .product-bar {
     overflow: hidden;

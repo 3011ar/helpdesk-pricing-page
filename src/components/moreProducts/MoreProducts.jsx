@@ -15,7 +15,7 @@ const MoreProducts = () => {
 
                         <div className='product-rows'>
                             { moreProductsData.moreProducts.map((products) => (
-                                <div className='product-card'>
+                                <div key={products} className='product-card'>
                                     <img src={products.imageUrl} alt="icon"/>
                                     <h4>{products.ProductName}</h4>
                                     <p>{products.ProductDesc}</p>

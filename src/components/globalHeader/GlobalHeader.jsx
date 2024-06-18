@@ -18,7 +18,7 @@ const GlobalHeader = () => {
 
           <div className='product-logo-wrapper'>
             <a>
-              <img id="hfTopbarlogo" src="https://assets.www.happyfox.com/v2/images/site-nav/topbar-logo-black.svg" width="116" height="24" alt="happyfox logo" class="hf-productbar__logo" />
+              <img id="hfTopbarlogo" src="https://assets.www.happyfox.com/v2/images/site-nav/topbar-logo-black.svg" width="116" height="24" alt="happyfox logo" className="hf-productbar__logo" />
             </a>
           </div>
 
@@ -29,7 +29,7 @@ const GlobalHeader = () => {
                 <div className='product-switcher'>
                   <span className='product-switcher-text' onClick={toggleActive}>
                     Products
-                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10" />
+                    <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" className="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10" />
                   </span>
 
                   {/* <div className={`product-switcher-dropbox ${isActive ? 'active' : ''}`}> */}

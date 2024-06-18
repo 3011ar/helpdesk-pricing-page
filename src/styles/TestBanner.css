@@ -36,9 +36,12 @@
     margin: 0 auto;
     /* justify-content: space-between; */
     justify-content: space-evenly;
-    max-width: 77%;
+    /* max-width: 77%; */
     align-items: stretch;
     min-height: 90px;
+
+    max-width: 60%;
+    gap: 20px;
 }
 
 .pricing-explainer-block {
@@ -50,6 +53,10 @@
     cursor: pointer;
 }
 
+.pricing-explainer-block:hover {
+  background-color: #fff;
+}
+
 .volume {
     background-color: #ffeada;
 }
@@ -57,20 +64,47 @@
 .pricing-explainer-block h4 {
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
+
+    margin: auto;
 }
 
 @media only screen 
-and (max-width : 390px) {
+and (max-width : 430px) {
   /* Styles */
   .pricing-banner {
     overflow: hidden;
   }
   .pricing-explainer {
     gap: 10px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     max-width: 77%;
     margin-left: 8%;
+    max-height: 80px;
+  }
+  .pricing-test h1{
+    font-size: 40px;
+    font-weight: 510;
+    margin: 50px 0;
+    color: #000;
+  }
+  
+  .pricing-explainer-block {
+    max-width: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    box-shadow: none;
+    padding: 20px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 39%;
+  }
+  .volume {
+    background-color: #ffeada;
   }
 
 }

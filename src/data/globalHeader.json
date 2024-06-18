@@ -171,6 +171,13 @@
             "fanastic" : false,
             "enterPrise" : true,
             "enterPricePlus" : true
+        },
+        {
+            "ticketManagement" : "Attachment Store",
+            "mighty" : "50 GB",
+            "fanastic" : "500 GB",
+            "enterPrise" : "1 TB",
+            "enterPricePlus" : "2 TB"
         }
     ],
 
