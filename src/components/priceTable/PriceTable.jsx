@@ -59,7 +59,7 @@ const PriceTable = () => {
                     >
                       <div
                         className="table-title"
-                        style={{ fontWeight: "bolder" }}
+                        style={{ fontWeight: "bolder" , fontWeight: '600'}}
                       >
                         <p>{category.category}</p>
                       </div>
@@ -82,7 +82,8 @@ const PriceTable = () => {
                           }}
                         >
                           <div className="table-title">
-                            <p>{item.ticketManagement}</p>
+                            <p><a>
+                            {item.ticketManagement}</a></p>
                           </div>
                           <div
                             className={
